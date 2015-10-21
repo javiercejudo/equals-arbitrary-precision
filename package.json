@@ -1,6 +1,6 @@
 {
   "name": "equals-arbitrary-precision",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "equals abstraction to extend linear-arbitrary-precision",
   "main": "src/equals-arbitrary-precision.js",
   "scripts": {
