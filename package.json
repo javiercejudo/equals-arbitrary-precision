@@ -31,5 +31,8 @@
     "linear-arbitrary-precision": "^3.1.0",
     "rimraf": "^2.4.3",
     "should": "^8.0.2"
+  },
+  "dependencies": {
+    "binary-op-arbitrary-precision": "^1.4.0"
   }
 }

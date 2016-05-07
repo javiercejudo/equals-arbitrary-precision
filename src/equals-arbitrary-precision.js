@@ -2,10 +2,8 @@
 
 'use strict';
 
-module.exports = function factory(Decimal) {
-  Decimal.prototype.equals = function equals(x) {
-    return Decimal.getAdapter().equals(this.val(), x.val());
-  };
+var binaryOpExtender = require('binary-op-arbitrary-precision').asIs;
 
-  return Decimal;
+module.exports = function factory(Decimal) {
+  return binaryOpExtender(Decimal, 'equals');
 };
